@@ -1,7 +1,7 @@
 import React from 'react'; 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import ExperienceCards from '../components/ExperienceCards';
+import ExperienceCards from './ProjectsCards';
 import ContactForm from '../components/ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faHtml5, faJsSquare, faMdb, faNode, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
