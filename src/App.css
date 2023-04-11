@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #850f17; */
+}
+.app {
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+}
+
+.app-header {
+  background-color: #bde0fe;
+  max-height: 45vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;  
+  color: #023047;
+}
+.app-link {
+  color: #023047;
+}
+/* HomeTabs CSS */
+.cards-icons{
+  border: solid 5px rgb(40, 7, 82);
+    color: 'black';
+    width: 600px;
+    height: 20vh; 
+    text-align:center;
+    max-height: 35vh;
+    overflow-y: auto;
+     border-radius: 8px;
+      display: -webkit-inline-flex;
+   box-shadow: 10px 10px #83767f;
+   margin-inline-start: 30px;   
+   margin: 4vh;  
+   align-items: center;
+  }
+  .cards-icons>.social-media{
+    margin: 25px  ;
+}
+
+.h3-text {
+  font-size: calc(25px + 2vmin);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+  padding-top: 0px;
+}
+.h2-text {
+  font-size: calc(15px + 2vmin);
+  padding-top: 0px;
+  margin-top: 2px;
+  color: rgb(42, 15, 78);
+  animation: blinker 4s linear infinite;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+.button-Resume{
+  font-style: oblique;
+  background-color: #023047;
+  color:#ffc8dd ;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px ;
+  
+}
+.app-images {
+  background-size: contain;
+  display: inline-block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  width: 30vh;
+ height: 30vh;
+ 
+}
+.icons-list-footer {
+  position: relative; 
+  display: flex;
+  width: 100%;
+  background-color: #4fa6f7;
+justify-content: space-evenly;
+flex-flow: row wrap;
+}
+.social-media-list {
+  width: 10px;
+   }
