@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  max-height: max-content;
   /* background-color: #850f17; */
 }
 .app {
@@ -11,13 +12,13 @@
 }
 
 .app-header {
-  background-color: #bde0fe;
+  background-color: #ffffff;
   max-height: 45vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;  
-  color: #023047;
+  color: #470702;
 }
 .app-link {
   color: #023047;
@@ -90,4 +91,9 @@ flex-flow: row wrap;
 }
 .social-media-list {
   width: 10px;
+   }
+   .AboutMe{
+    display: flex;
+    flex-wrap: wrap;
+  
    }

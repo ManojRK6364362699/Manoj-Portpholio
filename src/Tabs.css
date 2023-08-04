@@ -22,7 +22,7 @@
     }
   
   .react-tabs__tab--selected {
-    background: #cdb4db;
+    background: #c5b8cd;
     border-color:#ffafcc ;
     color: #0f0f0f;
     border-radius: 5px 5px 0 0;
@@ -45,7 +45,7 @@
     left: -4px;
     right: -4px;
     bottom: -5px;
-    background:#ff006e;
+    background:#d78dad;
   }
   
   .react-tabs__tab-panel {
@@ -86,5 +86,5 @@
   }
 
 .fluid-container{
-  background: linear-gradient(#a2d2ff,#ffc8dd);
+  background: linear-gradient(#a7c1d9,#d3c8cc);
 }
